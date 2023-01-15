@@ -1,0 +1,1018 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/*---------------------- 
+       header style  
+----------------------------*/
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.header_item {
+    margin: 0 120px;
+    padding-bottom: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 53px;
+    font-family: 'Work Sans';
+    margin-top: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 40px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Work Sans';
+    cursor: pointer;
+
+
+}
+
+.nav ul li:hover {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+/*------------------------------- 
+       banner section style  
+-----------------------------------*/
+.banner {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.banner_img img {
+    width: 100%;
+}
+
+.banner_info h2 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.banner_info p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 30px 0;
+}
+
+.primary_btn {
+    background: #FF900E;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border: 2px solid transparent;
+    padding: 16px 32px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 35px;
+    transition: .5s;
+}
+
+.primary_btn:hover {
+    background-color: #FFFFFF;
+    color: #FF900E;
+    border: 2px solid black;
+}
+
+/*-------------------------------
+     features section style
+--------------------------------  */
+main {
+    margin: 0 120px;
+}
+
+.feature_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 100px 0;
+    box-shadow: 0px 3px 21px 1px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 0px 3px 21px 1px rgba(0, 0, 0, 0.89);
+    padding: 40px 18px;
+}
+
+.feature_img_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.feature_img img {
+    width: 100%;
+}
+
+.feature_info h3 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+
+.feature_info p {
+    color: #727272;
+    margin: 20px 0;
+
+}
+
+.text_color_black {
+    color: #131313;
+    font-weight: 700;
+}
+
+.text_color_orange {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+/* ------------------------------------------------
+        all types of feuture section style 
+----------------------------------------------- */
+.all_feature_iteams {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 100px 0;
+
+}
+
+.feature_title {
+    border-left: 4px solid #FF900E;
+}
+
+.feature_title h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 53px;
+    color: #131313;
+    margin-left: 10px;
+}
+
+.features_items p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 15px 0 20px 0;
+}
+
+.feature_blog {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px 1px #dbd9d9;
+    padding: 20px 20px;
+    margin-bottom: 16px;
+}
+
+.feature_blog h4 {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.feature_blog p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.features_img {
+    position: relative;
+}
+
+.features_img img {
+    width: 100%;
+}
+
+.experience_button {
+    background-color: #FF900E;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+}
+
+.expericen_year {
+    background-color: #FF900E;
+    border-radius: 5px;
+    width: 200px;
+    padding: 15px 35px;
+    text-align: center;
+    position: absolute;
+    bottom: -15px;
+    left: -70px;
+
+
+}
+
+.expericen_year h5 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.expericenc_color {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+/* --------------------------------
+            our team section style
+-----------------------------------------  */
+.our_team_section {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 100px 50px;
+}
+
+.team_section {
+    background-image: linear-gradient(rgba(255, 144, 14, 0.1), #adaaaa, rgba(238, 220, 200, 0.1));
+    box-shadow: 0px 3px 21px 1px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 0px 3px 21px 1px rgba(0, 0, 0, 0.89);
+    padding: 30px 5px;
+
+}
+
+.team_section h1 {
+    font-family: 'Work Sans';
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0 90px 0;
+}
+
+.our_team {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+
+}
+
+.our_team .team_member {
+    background-color: rgba(255, 144, 14, 0.1);
+    box-shadow: 0px 1px 6px 1px #6a6a6a;
+    ;
+    margin-bottom: 80px;
+    width: 210px;
+    padding: 30px;
+    position: relative;
+    border-radius: 5px;
+
+
+}
+
+.our_team .team_member h2 {
+    margin-top: 35px;
+    font-size: 22px;
+}
+
+.our_team .team_member h4 {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.our_team .team_member hr {
+    margin-bottom: 10px;
+    border: 1px dotted black;
+}
+
+.our_team .team_member p {
+    line-height: 20px;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+
+}
+
+.team_img {
+    width: 90px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 5px;
+    border-radius: 50%;
+
+}
+
+.team_img img {
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+/*---------------------------------
+           award secrion style 
+--------------------------------------  */
+.award_container {
+    margin: 150px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.award_info h3 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.award_info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.award_section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.award_section .award_card {
+    position: relative;
+    width: 190px;
+    height: 190px;
+    box-shadow: inset 5px 5px 5px rgb(219 203 203 / 42%), inset -5px -5px 5px rgb(203 200 200 / 50%), 5px 5px 5px rgb(157 157 157 / 10%), -5px -5px 5px rgb(247 247 247 / 50%);
+    border-radius: 50%;
+    margin: 10px;
+    padding: 25px;
+
+}
+
+.award_section .award_card .box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transition: 0.5s;
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+.award_section .award_card:hover .box {
+    transform: translateY(-50px);
+}
+
+.content h3 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.content p {
+    color: #727272;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+/* -----------------------------------
+            sponsor section style
+--------------------------------------  */
+.sponsor_details {
+    text-align: center;
+    margin: 120px 130px;
+}
+
+.sponsor_info {}
+
+.sponsor_info h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 53px;
+    color: #131313;
+}
+
+
+.sponsor_info p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 30px 0;
+}
+
+.sponsors_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*------------------------------------
+        footer section style
+--------------------------------------  */
+.footer_secton {
+    margin: 120px 130px;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 25px 0;
+}
+
+.footer_secton p {
+    text-align: center;
+}
+
+.display_hidden {
+    display: none;
+}
+
+/*-------------------------------------------
+        media quaries section style 
+------------------------------------------ */
+
+/* media quries for mobile devices  */
+@media only screen and (max-width: 688px) {
+    .header_item {
+        margin: 0 5%;
+        padding-bottom: 20px;
+    }
+
+    nav h1 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav ul li {
+        margin-left: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    /* banner section style  */
+    .banner {
+        margin-top: 60px;
+    }
+
+    .banner_info h2 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .banner_info p {
+
+        font-size: 16px;
+        line-height: 18px;
+        margin: 20px 0;
+    }
+
+    .banner_img {
+        margin-top: 30px;
+    }
+
+    .primary_btn {
+        font-size: 16px;
+        line-height: 0px;
+        padding: 18px 20px;
+        border-radius: 12px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+
+    /* feature sectio style  */
+    main {
+        margin: 0 5%;
+    }
+
+    .feature_section {
+        flex-direction: column-reverse;
+        padding: 20px 16px;
+        margin: 50px 0;
+    }
+
+    .feature_info h3 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+        color: #727272;
+    }
+
+    .feature_info p {
+        margin: 10px 0;
+        font-size: 16px;
+
+    }
+
+    .feature_img_section {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+        margin-top: 0;
+
+    }
+
+    /* all types of features section style  */
+    .all_feature_iteams {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 80px 0;
+
+    }
+
+    .feature_title h3 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .features_items p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .feature_blog h4 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 0px;
+    }
+
+    .feature_blog p {
+        line-height: 18px;
+        margin-top: 20px;
+    }
+
+    .features_img {
+        margin-top: 0;
+    }
+
+    .expericen_year h5 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .expericenc_color {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .expericen_year {
+        width: 150px;
+        padding: 18px 8px;
+        bottom: -30px;
+        left: 0px;
+
+
+    }
+
+    /* our team section style  */
+    .our_team_section {
+        padding: 0px 15px;
+    }
+
+    .team_section {
+        background-image: linear-gradient(rgba(255, 144, 14, 0.1),
+                rgba(255, 144, 14, 0.1), rgba(255, 144, 14, 0.1));
+        box-shadow: 0px 3px 21px 1px rgba(255, 144, 14, 0.1);
+        -moz-box-shadow: 0px 3px 21px 1px rgba(255, 144, 14, 0.1);
+        padding: 0px 0px;
+
+    }
+
+    .team_section h1 {
+        font-size: 25px;
+        font-weight: 900;
+        padding-top: 30px;
+        margin-bottom: 70px;
+
+    }
+
+    .our_team {
+        gap: 15px;
+    }
+
+    .our_team .team_member {
+        background-color: rgba(255, 144, 14, 0.1);
+        box-shadow: 0px 1px 6px 1px #6a6a6a;
+        margin-bottom: 50px;
+        width: 240px;
+        padding: 20px;
+        border-radius: 10px;
+
+    }
+
+    .our_team .team_member h2 {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .our_team .team_member h4 {
+        margin: 15px 0;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .our_team .team_member p {
+        line-height: 18px;
+        font-size: 16px;
+    }
+
+    /* award section style  */
+    .award_container {
+        margin: 60px 10%;
+    }
+
+    .award_info h3 {
+        font-weight: 600;
+        font-size: 23px;
+    }
+
+    .award_info p {
+        margin-top: 15px;
+        line-height: 18px;
+    }
+
+    .award_section {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .content h3 {
+        color: #424242;
+        font-weight: 900;
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+
+
+    /* sponsor section style  */
+    .sponsor_details {
+        text-align: center;
+        margin: 0px 5%;
+    }
+
+    .sponsor_info h3 {
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 0px;
+    }
+
+
+    .sponsor_info p {
+        line-height: 18px;
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+
+    .sponsors_name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .spondos_img {
+        margin-top: 40px;
+    }
+
+    /* footer section style  */
+    .footer_secton {
+        margin: 50px 5%;
+        padding: 20px 0;
+    }
+
+    .footer_secton p {
+        font-size: 13px;
+        margin: 0 15px;
+    }
+
+    .display_hidden {
+        display: none;
+    }
+
+
+
+}
+
+/*---------------------------------------
+       media queries for medium devices 
+---------------------------------------- */
+
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+    .header_item {
+        margin: 0 5%;
+        padding-bottom: 10px;
+    }
+
+    nav h1 {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 20px;
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav ul li {
+        margin-left: 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    /* banner section style  */
+    .banner {
+        margin-top: 70px;
+    }
+
+    .banner_info h2 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .banner_img {
+        margin-top: 30px;
+    }
+
+    .primary_btn {
+        font-size: 16px;
+        line-height: 0px;
+        padding: 22px 25px;
+        border-radius: 12px;
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+
+    /* feature sectio style  */
+    main {
+        margin: 0 5%;
+    }
+
+    .feature_section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column-reverse;
+        padding: 40px 10px;
+        margin: 50px 0;
+
+    }
+
+    .feature_info {
+        order: 1;
+    }
+
+    .feature_info .feature_info h3 {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+
+    }
+
+    .feature_img_section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 0;
+        order: 2;
+
+    }
+
+    /* all types of features section style  */
+    .all_feature_iteams {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 80px 0;
+
+    }
+
+    .feature_title h3 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .features_items p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .feature_blog h4 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 0px;
+    }
+
+    .feature_blog p {
+        line-height: 18px;
+        margin-top: 20px;
+    }
+
+    .features_img {
+        margin-top: 0;
+    }
+
+    .expericen_year h5 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .expericenc_color {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .expericen_year {
+        width: 150px;
+        padding: 18px 8px;
+        bottom: -30px;
+        left: 0px;
+
+
+    }
+
+    /* our team section style  */
+    .our_team_section {
+        padding: 0px 15px;
+    }
+
+    .team_section {
+        background-image: linear-gradient(rgba(255, 144, 14, 0.1),
+                rgba(255, 144, 14, 0.1), rgba(255, 144, 14, 0.1));
+        box-shadow: 0px 3px 21px 1px rgba(255, 144, 14, 0.1);
+        -moz-box-shadow: 0px 3px 21px 1px rgba(255, 144, 14, 0.1);
+        padding: 0px 0px;
+
+    }
+
+    .team_section h1 {
+        font-size: 25px;
+        font-weight: 900;
+        padding-top: 30px;
+        margin-bottom: 70px;
+
+    }
+
+    .our_team {
+        gap: 15px;
+    }
+
+    .our_team .team_member {
+        background-color: rgba(255, 144, 14, 0.1);
+        box-shadow: 0px 1px 6px 1px #6a6a6a;
+        margin-bottom: 50px;
+        width: 240px;
+        padding: 20px;
+        border-radius: 10px;
+
+    }
+
+    .our_team .team_member h2 {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .our_team .team_member h4 {
+        margin: 15px 0;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .our_team .team_member p {
+        line-height: 18px;
+        font-size: 16px;
+    }
+
+    /* award section style  */
+    .award_container {
+        text-align: center;
+        margin: 60px 10%;
+    }
+
+    .award_info h3 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .award_info p {
+        margin-top: 15px;
+        line-height: 18px;
+    }
+
+    .award_section {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .content h3 {
+        color: #424242;
+        font-weight: 900;
+        font-size: 28px;
+        margin: 10px 0;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+
+
+    /* sponsor section style  */
+    .sponsor_details {
+        text-align: center;
+        margin: 0px 5%;
+    }
+
+    .sponsor_info h3 {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 0px;
+    }
+
+
+    .sponsor_info p {
+        line-height: 18px;
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+
+    .sponsors_name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .spondos_img {
+        margin-top: 40px;
+    }
+
+    /* footer section style  */
+    .footer_secton {
+        margin: 50px 5%;
+        padding: 20px 0;
+    }
+
+    .footer_secton p {
+        font-size: 13px;
+        margin: 0 15px;
+    }
+
+    .display_hidden {
+        display: none;
+    }
+
+}
